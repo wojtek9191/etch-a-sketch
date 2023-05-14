@@ -14,10 +14,7 @@ for (let i = 0; i < divsNum; i++) {
     }
     container.appendChild(div);
 }
-
 }
-
-//createDivs(16);
 
 
 function selectSize() {
@@ -45,7 +42,10 @@ createDivs(boardSize);
 })
 
 
-//selectSize();
+const resetButton = document.querySelector("#reset");
+resetButton.addEventListener("click", function() {
 
-
-
+let allDivs = document.querySelectorAll("div");
+allDivs.forEach((div) => div.style.backgroundColor = "white")
+      
+})

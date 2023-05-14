@@ -8,12 +8,11 @@ body {
 .container {
     width: 500px;
     height: 500px;
-    border: 5px solid red;
+    border: 3px solid rgb(201, 45, 45);
     display: grid;
 }
 
 .buttons {
-    border: 3px solid yellow;
     padding: 10px;
     display: flex;
     width: 300px;
